@@ -22,7 +22,7 @@
     "name": "Quiero todo de mongo 😄",
     "database": "mongo",
     "description": "...",
-    "query": "messages.find({}, {message:1})"
+    "query": "messages.find({"sender": 1})"
   },
   {
     "name": "Insertar a mongo",
