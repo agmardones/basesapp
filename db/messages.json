@@ -1,0 +1,1210 @@
+[
+  {
+    "lat": -18.483333,
+    "long": -70.333333,
+    "sender": 1,
+    "message": "Hola! Palestino es muy grande. Jajajajaja. ",
+    "date": "2016-08-20",
+    "receptant": 22
+  },
+  {
+    "lat": -18.483333,
+    "long": -70.333333,
+    "sender": 1,
+    "message": "Sucede que: Pensé en lo que el paso de las estaciones significa en mi vida. Me despido, salu5. ",
+    "date": "2016-04-08",
+    "receptant": 32
+  },
+  {
+    "lat": -18.483333,
+    "long": -70.333333,
+    "sender": 1,
+    "message": "Pasó algo. Tengo que estudiar Bases de Datos. Jijiji. ",
+    "date": "2016-10-19",
+    "receptant": 33
+  },
+  {
+    "lat": -18.483333,
+    "long": -70.333333,
+    "sender": 1,
+    "message": "Sucede que: Te odio. Me despido, saludos.",
+    "date": "2015-09-21",
+    "receptant": 13
+  },
+  {
+    "lat": -18.483333,
+    "long": -70.333333,
+    "sender": 1,
+    "message": "Hola! Viste lo del gran robo al banco? Me despido, salu3. ",
+    "date": "2015-01-06",
+    "receptant": 31
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 2,
+    "message": "Tenemos que hablar. Escuché la nueva canción de Metallica. No sé que hacer al respecto. ",
+    "date": "2016-11-12",
+    "receptant": 22
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 2,
+    "message": "Hola! Me robé su corazón. Me despido, salu3. ",
+    "date": "2016-02-05",
+    "receptant": 1
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 2,
+    "message": "Tenemos que hablar. Me robé un auto. Eso me tiene bien. ",
+    "date": "2015-12-21",
+    "receptant": 12
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 2,
+    "message": "Te cuento que: Me robé su corazón. Me despido, saludos.",
+    "date": "2016-06-04",
+    "receptant": 31
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 2,
+    "message": "Tanto tiempo! Me robé su corazón. Espero que nos juntemos pronto. ",
+    "date": "2016-12-12",
+    "receptant": 8
+  },
+  {
+    "lat": -18.483333,
+    "long": -70.333333,
+    "sender": 3,
+    "message": "Cómo estás? ",
+    "date": "2015-10-18",
+    "receptant": 33
+  },
+  {
+    "lat": -18.483333,
+    "long": -70.333333,
+    "sender": 3,
+    "message": "Hola! Escuché la nueva canción de Metallica. Me despido, salu5. ",
+    "date": "2015-10-04",
+    "receptant": 1
+  },
+  {
+    "lat": -18.483333,
+    "long": -70.333333,
+    "sender": 3,
+    "message": "Pasó algo. No sé que hacer. ",
+    "date": "2016-11-16",
+    "receptant": 28
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 4,
+    "message": "Hola! Me comí un churrasco. ",
+    "date": "2016-01-20",
+    "receptant": 5
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 4,
+    "message": "Sucede que: Me comí un churrasco. Me despido, salu5. ",
+    "date": "2016-02-12",
+    "receptant": 5
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 4,
+    "message": "Tanto tiempo! Me despido, saludos.",
+    "date": "2016-11-27",
+    "receptant": 25
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 5,
+    "message": "Sucede que: Pensé en lo que el paso de las estaciones significa en mi vida. Jijiji. ",
+    "date": "2016-06-17",
+    "receptant": 36
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 5,
+    "message": "Tanto tiempo! Pensé en lo que el paso de las estaciones significa en mi vida. Jijiji. ",
+    "date": "2016-10-28",
+    "receptant": 19
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 5,
+    "message": "Cómo estás? Me robé un auto. Me despido, salu3. ",
+    "date": "2015-08-22",
+    "receptant": 36
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 5,
+    "message": "Cómo estás? Viste lo del gran robo al banco? Eso me tiene mal. ",
+    "date": "2015-05-05",
+    "receptant": 21
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 5,
+    "message": "Hola! Me voy de viaje. Me despido, saludos.",
+    "date": "2015-06-25",
+    "receptant": 26
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 6,
+    "message": "Hola! Estoy borracho. Eso me tiene bien. ",
+    "date": "2015-01-04",
+    "receptant": 30
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 6,
+    "message": "Tenemos que hablar. Me comí un churrasco. Jajajajaja. ",
+    "date": "2015-12-13",
+    "receptant": 26
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 6,
+    "message": "Hola! No sé que hacer. Me despido, salu5. ",
+    "date": "2015-10-02",
+    "receptant": 29
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 6,
+    "message": "Sucede que: Tengo que estudiar Bases de Datos. Eso me hace feliz. ",
+    "date": "2015-02-25",
+    "receptant": 18
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 6,
+    "message": "Cómo estás? Ellos bailan sin Cesar. Me despido, saludos.",
+    "date": "2016-10-26",
+    "receptant": 2
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 7,
+    "message": "Tanto tiempo! Escuché la nueva canción de Metallica. Espero que nos juntemos pronto. ",
+    "date": "2015-05-24",
+    "receptant": 2
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 7,
+    "message": "Pasó algo. Me comí un completo. Me despido, salu3. ",
+    "date": "2016-01-16",
+    "receptant": 26
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 7,
+    "message": "Hola! Viste lo del gran asalto al banco? Eso me tiene bien. ",
+    "date": "2015-04-03",
+    "receptant": 25
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 7,
+    "message": "Tanto tiempo! No sé que hacer. Jijiji. ",
+    "date": "2016-09-09",
+    "receptant": 1
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 8,
+    "message": "Tanto tiempo! Estoy borracho. Me despido, salu5. ",
+    "date": "2015-04-09",
+    "receptant": 23
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 8,
+    "message": "Tenemos que hablar. Eso me tiene bien. ",
+    "date": "2015-09-16",
+    "receptant": 34
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 8,
+    "message": "Tenemos que hablar. Me robé un auto. Me despido, salu3. ",
+    "date": "2015-03-27",
+    "receptant": 25
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 8,
+    "message": "Tanto tiempo! No sé que hacer. No sé que hacer al respecto. ",
+    "date": "2016-07-02",
+    "receptant": 12
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 8,
+    "message": "Tenemos que hablar. Palestino es muy grande. Eso me hace feliz. ",
+    "date": "2015-10-07",
+    "receptant": 9
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 9,
+    "message": "Cómo estás? Asalté un banco jugando GTA. Me despido, salu5. ",
+    "date": "2015-11-10",
+    "receptant": 1
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 9,
+    "message": "Pasó algo. Bailé hasta muy tarde. Espero que nos juntemos pronto. ",
+    "date": "2016-08-23",
+    "receptant": 27
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 9,
+    "message": "Tanto tiempo! Viste lo del gran robo al banco? Eso me hace feliz. ",
+    "date": "2016-10-09",
+    "receptant": 6
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 10,
+    "message": "Cómo estás? Alcancé el equilibrio espiritual. Jajajajaja. ",
+    "date": "2016-08-24",
+    "receptant": 25
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 10,
+    "message": "Te cuento que: Me comí un completo. ",
+    "date": "2015-01-16",
+    "receptant": 23
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 10,
+    "message": "Sucede que: Estoy borracho. Jajajajaja. ",
+    "date": "2016-06-04",
+    "receptant": 5
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 10,
+    "message": "Pasó algo. Me robé su corazón. Me despido, salu3. ",
+    "date": "2016-02-24",
+    "receptant": 33
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 10,
+    "message": "Sucede que: Ellos bailan sin Cesar. Eso me tiene mal. ",
+    "date": "2016-07-13",
+    "receptant": 14
+  },
+  {
+    "lat": -33.45,
+    "long": -70.666667,
+    "sender": 11,
+    "message": "Sucede que: Bailé hasta muy tarde. Me despido, saludos.",
+    "date": "2016-10-15",
+    "receptant": 20
+  },
+  {
+    "lat": -33.45,
+    "long": -70.666667,
+    "sender": 11,
+    "message": "Sucede que: Pensé en lo que el paso de las estaciones significa en mi vida. Me despido, salu5. ",
+    "date": "2015-08-19",
+    "receptant": 21
+  },
+  {
+    "lat": -33.45,
+    "long": -70.666667,
+    "sender": 11,
+    "message": "Tenemos que hablar. Me robé su corazón. Me despido, salu5. ",
+    "date": "2016-03-06",
+    "receptant": 7
+  },
+  {
+    "lat": 28.1,
+    "long": -15.4,
+    "sender": 12,
+    "message": "Pasó algo. Ellos bailan sin Cesar. Eso me tiene mal. ",
+    "date": "2016-02-22",
+    "receptant": 10
+  },
+  {
+    "lat": 28.1,
+    "long": -15.4,
+    "sender": 12,
+    "message": "Tenemos que hablar. Alcancé el equilibrio espiritual. Me despido, salu3. ",
+    "date": "2015-12-27",
+    "receptant": 32
+  },
+  {
+    "lat": 28.1,
+    "long": -15.4,
+    "sender": 12,
+    "message": "Cómo estás? Bailé hasta muy tarde. Eso me hace feliz. ",
+    "date": "2015-02-16",
+    "receptant": 16
+  },
+  {
+    "lat": 28.1,
+    "long": -15.4,
+    "sender": 12,
+    "message": "Te cuento que: Ellos bailan sin Cesar. No sé que hacer al respecto. ",
+    "date": "2015-06-17",
+    "receptant": 7
+  },
+  {
+    "lat": 28.1,
+    "long": -15.4,
+    "sender": 12,
+    "message": "Hola! Me robé un auto. Jijiji. ",
+    "date": "2016-11-01",
+    "receptant": 20
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 13,
+    "message": "Sucede que: Me voy de viaje. Jijiji. ",
+    "date": "2016-02-04",
+    "receptant": 8
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 13,
+    "message": "Cómo estás? Escuché la nueva canción de Metallica. Eso me tiene bien. ",
+    "date": "2015-06-11",
+    "receptant": 20
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 13,
+    "message": "Te cuento que: Me voy de viaje. No sé que hacer al respecto. ",
+    "date": "2016-10-01",
+    "receptant": 25
+  },
+  {
+    "lat": 35.683333,
+    "long": 139.683333,
+    "sender": 13,
+    "message": "Sucede que: Te odio. Me despido, saludos.",
+    "date": "2015-11-17",
+    "receptant": 27
+  },
+  {
+    "lat": 45.466667,
+    "long": 9.183333,
+    "sender": 14,
+    "message": "Pasó algo. Mi muñeca me habló. No sé que hacer al respecto. ",
+    "date": "2015-05-25",
+    "receptant": 22
+  },
+  {
+    "lat": 45.466667,
+    "long": 9.183333,
+    "sender": 14,
+    "message": "Hola! Ellos bailan sin Cesar. Me despido, salu3. ",
+    "date": "2016-06-19",
+    "receptant": 36
+  },
+  {
+    "lat": 45.466667,
+    "long": 9.183333,
+    "sender": 14,
+    "message": "Sucede que: Mi muñeca me habló. Me despido, salu5. ",
+    "date": "2016-08-03",
+    "receptant": 7
+  },
+  {
+    "lat": -33.45,
+    "long": -70.666667,
+    "sender": 15,
+    "message": "Hola! Me voy de viaje. Espero que nos juntemos pronto. ",
+    "date": "2016-01-03",
+    "receptant": 32
+  },
+  {
+    "lat": -33.45,
+    "long": -70.666667,
+    "sender": 15,
+    "message": "Tenemos que hablar. Me robé un auto. Jijiji. ",
+    "date": "2015-06-08",
+    "receptant": 22
+  },
+  {
+    "lat": -33.45,
+    "long": -70.666667,
+    "sender": 15,
+    "message": "Tanto tiempo! Viste lo del gran robo al banco? Eso me hace feliz. ",
+    "date": "2015-02-26",
+    "receptant": 20
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 16,
+    "message": "Buena! No sé que hacer. Jajajajaja. ",
+    "date": "2016-03-07",
+    "receptant": 4
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 16,
+    "message": "Buena! Me comí un churrasco. Me despido, saludos.",
+    "date": "2016-02-15",
+    "receptant": 9
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 16,
+    "message": "Tenemos que hablar. Pensé en lo que el paso de las estaciones significa en mi vida. Eso me tiene mal. ",
+    "date": "2016-02-26",
+    "receptant": 19
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 16,
+    "message": "Sucede que: Viste lo del gran asalto al banco? Me despido, salu3. ",
+    "date": "2016-03-18",
+    "receptant": 21
+  },
+  {
+    "lat": -34.166667,
+    "long": -70.75,
+    "sender": 17,
+    "message": "Sucede que: Ellos bailan sin Cesar. Me despido, salu5. ",
+    "date": "2016-03-28",
+    "receptant": 15
+  },
+  {
+    "lat": -34.166667,
+    "long": -70.75,
+    "sender": 17,
+    "message": "Pasó algo. Alcancé el equilibrio espiritual. Eso me tiene bien. ",
+    "date": "2016-03-14",
+    "receptant": 19
+  },
+  {
+    "lat": -34.166667,
+    "long": -70.75,
+    "sender": 17,
+    "message": "Tanto tiempo! Asalté un banco. Eso me tiene mal. ",
+    "date": "2015-05-08",
+    "receptant": 19
+  },
+  {
+    "lat": -53.166667,
+    "long": -70.933333,
+    "sender": 18,
+    "message": "Buena! Me robé su corazón. Eso me tiene mal. ",
+    "date": "2016-01-23",
+    "receptant": 7
+  },
+  {
+    "lat": -53.166667,
+    "long": -70.933333,
+    "sender": 18,
+    "message": "Pasó algo. Ellos bailan sin Cesar. Eso me tiene bien. ",
+    "date": "2016-12-10",
+    "receptant": 4
+  },
+  {
+    "lat": -53.166667,
+    "long": -70.933333,
+    "sender": 18,
+    "message": "Sucede que: Me robé su corazón. Espero que nos juntemos pronto. ",
+    "date": "2015-04-27",
+    "receptant": 12
+  },
+  {
+    "lat": -53.166667,
+    "long": -70.933333,
+    "sender": 18,
+    "message": "Pasó algo. Pensé en lo que el paso de las estaciones significa en mi vida. Eso me tiene mal. ",
+    "date": "2016-05-11",
+    "receptant": 11
+  },
+  {
+    "lat": -53.166667,
+    "long": -70.933333,
+    "sender": 18,
+    "message": "Te cuento que: Asalté un banco. Jajajajaja. ",
+    "date": "2016-08-04",
+    "receptant": 30
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 19,
+    "message": "Cómo estás? Escuché la nueva canción de Metallica. Me despido, salu3. ",
+    "date": "2016-02-01",
+    "receptant": 27
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 19,
+    "message": "Tanto tiempo! Cobreloa es el mejor equipo del mundo. ",
+    "date": "2016-09-05",
+    "receptant": 30
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 19,
+    "message": "Sucede que: Cobreloa es el mejor equipo del mundo. Eso me tiene bien. ",
+    "date": "2015-05-25",
+    "receptant": 6
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 19,
+    "message": "Sucede que: Me voy de viaje. Eso me hace feliz. ",
+    "date": "2016-03-09",
+    "receptant": 33
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 19,
+    "message": "Buena! Tengo que estudiar Bases de Datos. Jajajajaja. ",
+    "date": "2015-12-27",
+    "receptant": 12
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 20,
+    "message": "Sucede que: No sé que hacer. Eso me tiene mal. ",
+    "date": "2015-11-22",
+    "receptant": 34
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 20,
+    "message": "Cómo estás? Asalté un banco. Eso me hace feliz. ",
+    "date": "2015-02-20",
+    "receptant": 3
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 20,
+    "message": "Pasó algo. Asalté un banco jugando GTA. Eso me hace feliz. ",
+    "date": "2016-06-04",
+    "receptant": 25
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 21,
+    "message": "Sucede que: Ellos bailan sin Cesar. Eso me hace feliz. ",
+    "date": "2016-12-16",
+    "receptant": 33
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 21,
+    "message": "Hola! No sé que hacer. Eso me tiene mal. ",
+    "date": "2015-08-09",
+    "receptant": 24
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 21,
+    "message": "Te cuento que: Bailé hasta muy tarde. Me despido, salu5. ",
+    "date": "2015-09-28",
+    "receptant": 9
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 21,
+    "message": "Pasó algo. Eso me tiene mal. ",
+    "date": "2016-10-27",
+    "receptant": 31
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 21,
+    "message": "Pasó algo. Mi muñeca me habló. Jijiji. ",
+    "date": "2015-04-09",
+    "receptant": 13
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 22,
+    "message": "Tenemos que hablar. Me comí un churrasco. Me despido, salu3. ",
+    "date": "2015-05-13",
+    "receptant": 3
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 22,
+    "message": "Hola! Asalté un banco. Me despido, salu3. ",
+    "date": "2016-01-04",
+    "receptant": 20
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 22,
+    "message": "Tenemos que hablar. Me comí un completo. Jijiji. ",
+    "date": "2015-04-07",
+    "receptant": 12
+  },
+  {
+    "lat": -53.166667,
+    "long": -70.933333,
+    "sender": 23,
+    "message": "Hola! Bailé hasta muy tarde. Me despido, salu3. ",
+    "date": "2015-01-04",
+    "receptant": 1
+  },
+  {
+    "lat": -53.166667,
+    "long": -70.933333,
+    "sender": 23,
+    "message": "Tanto tiempo! Estoy borracho. Jajajajaja. ",
+    "date": "2015-05-26",
+    "receptant": 28
+  },
+  {
+    "lat": -53.166667,
+    "long": -70.933333,
+    "sender": 23,
+    "message": "Pasó algo. Cobreloa es el mejor equipo del mundo. Espero que nos juntemos pronto. ",
+    "date": "2015-07-16",
+    "receptant": 31
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 24,
+    "message": "Cómo estás? Estoy borracho. Espero que nos juntemos pronto. ",
+    "date": "2015-06-11",
+    "receptant": 15
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 24,
+    "message": "Te cuento que: Te odio. Me despido, salu5. ",
+    "date": "2015-04-21",
+    "receptant": 20
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 24,
+    "message": "Tenemos que hablar. Pensé en lo que el paso de las estaciones significa en mi vida. Me despido, salu5. ",
+    "date": "2016-12-21",
+    "receptant": 16
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 24,
+    "message": "Hola! No sé que hacer. Me despido, salu3. ",
+    "date": "2015-06-15",
+    "receptant": 29
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 25,
+    "message": "Cómo estás? Viste lo del gran asalto al banco? Me despido, salu3. ",
+    "date": "2015-08-01",
+    "receptant": 35
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 25,
+    "message": "Tenemos que hablar. Palestino es muy grande. Eso me tiene mal. ",
+    "date": "2016-08-26",
+    "receptant": 29
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 25,
+    "message": "Sucede que: Escuché la nueva canción de Metallica. Espero que nos juntemos pronto. ",
+    "date": "2015-09-10",
+    "receptant": 8
+  },
+  {
+    "lat": -34.603333,
+    "long": -58.381667,
+    "sender": 25,
+    "message": "Hola! Te odio. Eso me hace feliz. ",
+    "date": "2016-12-22",
+    "receptant": 7
+  },
+  {
+    "message": "Buena! Me resultó el asalto al banco. ",
+    "sender": 16,
+    "lat": -33.45,
+    "long": -70.666667,
+    "date": "2016-10-22",
+    "receptant": 2
+  },
+  {
+    "message": "Me voy a ir de viaje para que no me descubran. ",
+    "sender": 16,
+    "lat": -33.45,
+    "long": -70.666667,
+    "date": "2016-10-23",
+    "receptant": 2
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 26,
+    "message": "Pasó algo. Me robé un auto. Me despido, salu3. ",
+    "date": "2015-06-06",
+    "receptant": 14
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 26,
+    "message": "Te cuento que: Me comí un completo. Jajajajaja. ",
+    "date": "2015-07-15",
+    "receptant": 33
+  },
+  {
+    "lat": -29.9,
+    "long": -71.25,
+    "sender": 26,
+    "message": "Te cuento que: Ellos bailan sin Cesar. Me despido, saludos.",
+    "date": "2015-08-01",
+    "receptant": 30
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 27,
+    "message": "Te cuento que: Me voy de viaje. Eso me tiene mal. ",
+    "date": "2016-11-02",
+    "receptant": 9
+  },
+  {
+    "message": "Ya estoy en Arica. ",
+    "sender": 16,
+    "lat": -18.483333,
+    "long": -70.333333,
+    "date": "2016-10-24",
+    "receptant": 2
+  },
+  {
+    "message": "Ya estoy en Buenos Aires. ",
+    "sender": 16,
+    "lat": -34.603333,
+    "long": -58.381667,
+    "date": "2016-10-26",
+    "receptant": 2
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 27,
+    "message": "Sucede que: Viste lo del gran asalto al banco? Eso me tiene bien. ",
+    "date": "2016-05-04",
+    "receptant": 19
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 27,
+    "message": "Pasó algo. Me voy de viaje. Me despido, salu3. ",
+    "date": "2016-08-06",
+    "receptant": 9
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 27,
+    "message": "Sucede que: Mi muñeca me habló. Jijiji. ",
+    "date": "2016-02-14",
+    "receptant": 22
+  },
+  {
+    "message": "Decidí visitar a mi abuela en Milán. Le compré un Panda. ",
+    "sender": 16,
+    "lat": 45.466667,
+    "long": 9.183333,
+    "date": "2016-11-01",
+    "receptant": 2
+  },
+  {
+    "lat": 45.466667,
+    "long": 9.183333,
+    "sender": 28,
+    "message": "Pasó algo. Me robé un auto. Eso me tiene mal. ",
+    "date": "2015-05-28",
+    "receptant": 17
+  },
+  {
+    "lat": 45.466667,
+    "long": 9.183333,
+    "sender": 28,
+    "message": "Tanto tiempo! Bailé hasta muy tarde. Eso me hace feliz. ",
+    "date": "2015-03-13",
+    "receptant": 10
+  },
+  {
+    "lat": 45.466667,
+    "long": 9.183333,
+    "sender": 28,
+    "message": "Buena! Eso me hace feliz. ",
+    "date": "2015-08-15",
+    "receptant": 22
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 29,
+    "message": "Hola! Palestino es muy grande. Eso me tiene mal. ",
+    "date": "2016-12-11",
+    "receptant": 3
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 29,
+    "message": "Tenemos que hablar. No sé que hacer. ",
+    "date": "2016-08-17",
+    "receptant": 34
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 29,
+    "message": "Te cuento que: Asalté un banco jugando GTA. Me despido, saludos.",
+    "date": "2015-07-26",
+    "receptant": 1
+  },
+  {
+    "lat": -33.05,
+    "long": -71.616667,
+    "sender": 29,
+    "message": "Te cuento que: Viste lo del gran robo al banco? Eso me tiene mal. ",
+    "date": "2015-12-13",
+    "receptant": 8
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 30,
+    "message": "Hola! Mi muñeca me habló. ",
+    "date": "2015-12-07",
+    "receptant": 19
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 30,
+    "message": "Buena! Asalté un banco jugando GTA. Eso me tiene mal. ",
+    "date": "2015-10-20",
+    "receptant": 32
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 30,
+    "message": "Tanto tiempo! Me voy de viaje. Eso me tiene bien. ",
+    "date": "2015-08-02",
+    "receptant": 34
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 30,
+    "message": "Buena! Viste lo del gran robo al banco? Jijiji. ",
+    "date": "2015-03-08",
+    "receptant": 31
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 30,
+    "message": "Te cuento que: Me robé un auto. ",
+    "date": "2015-09-06",
+    "receptant": 32
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 31,
+    "message": "Sucede que: Viste lo del gran asalto al banco? Eso me hace feliz. ",
+    "date": "2015-02-21",
+    "receptant": 2
+  },
+  {
+    "message": "Llegué a mi destino. Adivina donde estoy. ",
+    "sender": 16,
+    "lat": 28.1,
+    "long": -15.4,
+    "date": "2016-11-01",
+    "receptant": 2
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 31,
+    "message": "Hola! Viste lo del gran asalto al banco? No sé que hacer al respecto. ",
+    "date": "2016-10-27",
+    "receptant": 19
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 31,
+    "message": "Buena! Viste lo del gran robo al banco? Jajajajaja. ",
+    "date": "2016-08-16",
+    "receptant": 29
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 31,
+    "message": "Cómo estás? Palestino es muy grande. Eso me tiene mal. ",
+    "date": "2016-12-01",
+    "receptant": 11
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 32,
+    "message": "Buena! Tengo que estudiar Bases de Datos. Espero que nos juntemos pronto. ",
+    "date": "2016-01-28",
+    "receptant": 21
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 32,
+    "message": "Hola! Me robé un auto. Me despido, salu3. ",
+    "date": "2016-08-11",
+    "receptant": 27
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 32,
+    "message": "Sucede que: Me comí un completo. Me despido, salu3. ",
+    "date": "2015-08-22",
+    "receptant": 1
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 32,
+    "message": "Pasó algo. Pensé en lo que el paso de las estaciones significa en mi vida. Eso me tiene bien. ",
+    "date": "2016-08-28",
+    "receptant": 29
+  },
+  {
+    "lat": -36.828194,
+    "long": -73.051369,
+    "sender": 32,
+    "message": "Hola! Te odio. Jajajajaja. ",
+    "date": "2016-11-05",
+    "receptant": 25
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 33,
+    "message": "Hola! Me robé un auto. Jajajajaja. ",
+    "date": "2016-12-25",
+    "receptant": 34
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 33,
+    "message": "Hola! Alcancé el equilibrio espiritual. Me despido, salu5. ",
+    "date": "2015-05-19",
+    "receptant": 30
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 33,
+    "message": "Pasó algo. Mi muñeca me habló. Me despido, salu3. ",
+    "date": "2016-03-17",
+    "receptant": 5
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 33,
+    "message": "Te cuento que: Te odio. Me despido, salu5. ",
+    "date": "2016-08-02",
+    "receptant": 2
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 33,
+    "message": "Tenemos que hablar. Te odio. Eso me tiene mal. ",
+    "date": "2015-07-25",
+    "receptant": 5
+  },
+  {
+    "lat": 34.05,
+    "long": -118.25,
+    "sender": 34,
+    "message": "Hola! Me comí un completo. Eso me tiene mal. ",
+    "date": "2015-06-23",
+    "receptant": 20
+  },
+  {
+    "lat": 34.05,
+    "long": -118.25,
+    "sender": 34,
+    "message": "Cómo estás? Viste lo del gran asalto al banco? Me despido, saludos.",
+    "date": "2015-11-01",
+    "receptant": 6
+  },
+  {
+    "lat": 34.05,
+    "long": -118.25,
+    "sender": 34,
+    "message": "Hola! Me robé un auto. Espero que nos juntemos pronto. ",
+    "date": "2015-05-01",
+    "receptant": 32
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 35,
+    "message": "Sucede que: Bailé hasta muy tarde. No sé que hacer al respecto. ",
+    "date": "2015-08-09",
+    "receptant": 5
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 35,
+    "message": "Te cuento que: No sé que hacer. Jajajajaja. ",
+    "date": "2016-01-23",
+    "receptant": 1
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 35,
+    "message": "Hola! Asalté un banco. Jajajajaja. ",
+    "date": "2016-02-03",
+    "receptant": 24
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 35,
+    "message": "Tanto tiempo! Eso me tiene mal. ",
+    "date": "2016-03-14",
+    "receptant": 4
+  },
+  {
+    "lat": -23.65,
+    "long": -70.4,
+    "sender": 35,
+    "message": "Hola! Estoy borracho. No sé que hacer al respecto. ",
+    "date": "2015-07-23",
+    "receptant": 20
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 36,
+    "message": "Hola! Viste lo del gran asalto al banco? Jijiji. ",
+    "date": "2016-06-18",
+    "receptant": 13
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 36,
+    "message": "Cómo estás? Cobreloa es el mejor equipo del mundo. No sé que hacer al respecto. ",
+    "date": "2016-07-25",
+    "receptant": 14
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 36,
+    "message": "Pasó algo. Me voy de viaje. Me despido, saludos.",
+    "date": "2015-05-04",
+    "receptant": 30
+  },
+  {
+    "lat": 34.69,
+    "long": 135.195556,
+    "sender": 36,
+    "message": "Tenemos que hablar. Mi muñeca me habló. Jajajajaja. ",
+    "date": "2015-06-02",
+    "receptant": 6
+  }
+]

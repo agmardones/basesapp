@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Haroldo Abarca",
+    "id": 1,
+    "age": 23,
+    "description": "Soy un usuario al que le gusta mucho cantar."
+  },
+  {
+    "name": "Ramón Montero",
+    "id": 2,
+    "age": 45,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Chus Aguado",
+    "id": 3,
+    "age": 33,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Elpidio García",
+    "id": 4,
+    "age": 49,
+    "description": "Soy un usuario al que le gusta mucho cocinar."
+  },
+  {
+    "name": "Vidal Durante",
+    "id": 5,
+    "age": 50,
+    "description": "Soy un usuario al que le gusta mucho viajar."
+  },
+  {
+    "name": "Quique Medina",
+    "id": 6,
+    "age": 23,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Fermín Ojeda",
+    "id": 7,
+    "age": 29,
+    "description": "Soy un usuario al que le gusta mucho bailar."
+  },
+  {
+    "name": "Natalio Robledo",
+    "id": 8,
+    "age": 46,
+    "description": "Soy un usuario al que le gusta mucho asaltar bancos."
+  },
+  {
+    "name": "Gervasio Molina",
+    "id": 9,
+    "age": 22,
+    "description": "Soy un usuario al que le gusta mucho viajar."
+  },
+  {
+    "name": "Matías Duarte",
+    "id": 10,
+    "age": 30,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Ramiro Álvarez",
+    "id": 11,
+    "age": 22,
+    "description": "Soy un usuario al que le gusta mucho estudiar bases de datos."
+  },
+  {
+    "name": "Odalis Rojo",
+    "id": 12,
+    "age": 20,
+    "description": "Soy un usuario al que le gusta mucho asaltar bancos."
+  },
+  {
+    "name": "Adrián Espinoza",
+    "id": 13,
+    "age": 56,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Tadeo Fuentes",
+    "id": 14,
+    "age": 32,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Efraín Rojo",
+    "id": 15,
+    "age": 45,
+    "description": "Soy un usuario al que le gusta mucho manejar."
+  },
+  {
+    "name": "Artemio Zapatero",
+    "id": 16,
+    "age": 25,
+    "description": "Soy un usuario al que le gusta mucho asaltar bancos."
+  },
+  {
+    "name": "Kike Mingo",
+    "id": 17,
+    "age": 38,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Adolfo Palomo",
+    "id": 18,
+    "age": 56,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Amado Villaverde",
+    "id": 19,
+    "age": 22,
+    "description": "Soy un usuario al que le gusta mucho manejar."
+  },
+  {
+    "name": "Vidal Arce",
+    "id": 20,
+    "age": 38,
+    "description": "Soy un usuario al que le gusta mucho bailar."
+  },
+  {
+    "name": "Desi Arenas",
+    "id": 21,
+    "age": 26,
+    "description": "Soy un usuario al que le gusta mucho tocar guitarra."
+  },
+  {
+    "name": "Jimeno Campo",
+    "id": 22,
+    "age": 31,
+    "description": "Soy un usuario al que le gusta mucho cocinar."
+  },
+  {
+    "name": "Godofredo Rojo",
+    "id": 23,
+    "age": 52,
+    "description": "Soy un usuario al que le gusta mucho cocinar."
+  },
+  {
+    "name": "Vinicio Aiza",
+    "id": 24,
+    "age": 29,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Fidel Juárez",
+    "id": 25,
+    "age": 42,
+    "description": "Soy un usuario al que le gusta mucho robar."
+  },
+  {
+    "name": "Gil Sanchez",
+    "id": 26,
+    "age": 58,
+    "description": "Soy un usuario al que le gusta mucho robar."
+  },
+  {
+    "name": "Severo Durante",
+    "id": 27,
+    "age": 27,
+    "description": "Soy un usuario al que le gusta mucho bailar."
+  },
+  {
+    "name": "Candelario Díaz",
+    "id": 28,
+    "age": 32,
+    "description": "Soy un usuario al que le gusta mucho estudiar bases de datos."
+  },
+  {
+    "name": "Joel Abel",
+    "id": 29,
+    "age": 25,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Eberardo Moles",
+    "id": 30,
+    "age": 25,
+    "description": "Soy un usuario al que le gusta mucho cocinar."
+  },
+  {
+    "name": "Marco Antúnez",
+    "id": 31,
+    "age": 36,
+    "description": "Soy un usuario al que le gusta mucho viajar."
+  },
+  {
+    "name": "Demetrio Maradona",
+    "id": 32,
+    "age": 48,
+    "description": "Soy un usuario al que le gusta mucho nada."
+  },
+  {
+    "name": "Bruno Franco",
+    "id": 33,
+    "age": 42,
+    "description": "Soy un usuario al que le gusta mucho robar."
+  },
+  {
+    "name": "Saturnino Elizondo",
+    "id": 34,
+    "age": 56,
+    "description": "Soy un usuario al que le gusta mucho robar."
+  },
+  {
+    "name": "Cruz Lopez",
+    "id": 35,
+    "age": 46,
+    "description": "Soy un usuario al que le gusta mucho manejar."
+  },
+  {
+    "name": "Wilfredo Arechavaleta",
+    "id": 36,
+    "age": 22,
+    "description": "Soy un usuario al que le gusta mucho bailar."
+  }
+]
