@@ -20,13 +20,13 @@
   {
     "name": "Consulta4",
     "database": "Mongo",
-    "description": "A las consultas anteriores, agregar la posibilidad deltrar los result",
+    "description": "Filtrar por fechas",
     "query": "..."
   },
   {
     "name": "Consulta5",
     "database": "Mongo",
-    "description": "A las consultas anteriores, agregar la posibilidad de ltrar los resultados",
+    "description": "Filtrar por localizacion",
     "query": "..."
   }
 ]
