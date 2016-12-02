@@ -79,9 +79,10 @@
               Ingrese fecha limite superior: <input type="text", name="fecha2"><br>
               <input type="hidden" name="name", value={{name}}><br>
               <input type="submit" value="Enviar Consulta">
-              </form> 
-              <form action="mapa.html" method="get"submit>
-              <button type="submit">Ver mapa</button><br>
+              <form action="mapa.html", method="post">
+              <div class="form-group">
+                <button type="submit" class="btn btn-default">ver mapa</button>
+              </div>
               </form>
               {% endif %}
           </div>
