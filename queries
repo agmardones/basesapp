@@ -16,5 +16,18 @@
     "database": "mongo",
     "description": "Una consulta de Sebastián 🙋",
     "query": "Busqueda por texto:"
+  },
+  {
+    "name": "Quiero todo de mongo 😄",
+    "database": "mongo",
+    "description": "...",
+    "query": "messages.find()"
+  },
+  {
+    "name": "Insertar a mongo",
+    "database": "mongo",
+    "description":
+      "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
+    "query": "myCollection.insert( { \"attribute\": \"value\" } )"
   }
 ]
