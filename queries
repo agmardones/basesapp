@@ -1,34 +1,20 @@
-[
+﻿[
   {
     "name": "Seleccionar todo",
-    "database": "postgres",
+    "database": "mongo",
     "description": "Una muy breve descripción",
-    "query": "SELECT * FROM mytable;"
+    "query": "Entregar todos los mensajes emitidos por un usuario de la red social."
   },
   {
   "name": "Lorem ipsum dolor sit amet",
   "database": "mongo",
-  "description":
-  "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
-  "query": "myCollection.find( {\"attribute\": \"value\"} )"
+  "description":"Agregar descripcion",
+  "query": "Entregar todos los mensajes intercambiados entre dos usuarios de la red social."
   },
   {
     "name": "Sebastián",
-    "database": "postgres",
+    "database": "mongo",
     "description": "Una consulta de Sebastián 🙋",
-    "query": "SELECT * FROM mytable WHERE nombre='Sebastián';"
-  },
-  {
-    "name": "Quiero todo de mongo 😄",
-    "database": "mongo",
-    "description": "...",
-    "query": "messages.find()"
-  },
-  {
-    "name": "Insertar a mongo",
-    "database": "mongo",
-    "description":
-      "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
-    "query": "myCollection.insert( { \"attribute\": \"value\" } )"
+    "query": "Busqueda por texto:"
   }
 ]
