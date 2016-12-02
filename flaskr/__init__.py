@@ -201,7 +201,7 @@ def receptor():
         for i in range(len(coordinates)):
             folium.Marker([coordinates[i][0], coordinates[i][1]], popup='Posicion {}'.format(i)).add_to(location)
         location.save("../templates/mapa.html")
-
+        return render_template('receptor.html', con=consulta, results=[])
 
 if __name__ == "__main__":
     app.run()
