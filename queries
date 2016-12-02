@@ -28,5 +28,11 @@
     "database": "Mongo",
     "description": "Filtrar por localizacion",
     "query": "..."
+  },
+  {
+    "name": "Consulta6",
+    "database": "Mongo",
+    "description": "Geolocalizacion",
+    "query": "..."
   }
 ]
