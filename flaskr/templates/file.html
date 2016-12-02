@@ -18,9 +18,7 @@
         <div class="mdl-card__supporting-text mdl-card--border">
           <div class="query-card-content">
             <span>
-              {{description}}
-              nombre : <input type="text" name="frame"><br>
-              apellido : <input type="text" name="lname"><br>
+              {{description}
               <input type="submit" value="Submit">
             </span>
             <button
@@ -31,8 +29,16 @@
           </div>
           <div class="query-card-code">
             <span>{{query}}</span>
+            <p>nombre : <input type="text" name="frame"></p>
           </div>
-	 </div>
+           <form action="action_page.php">
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+            </form> 
+	   </div>
       </div>
       {% endfor %}
     </div>
