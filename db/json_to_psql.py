@@ -1,7 +1,7 @@
 import psycopg2
 import json
 
-conn = psycopg2.connect("dbname = hola user = andres")
+conn = psycopg2.connect("dbname = entrega4 user = administrator")
 cur = conn.cursor()
 # Setup, para no cargar siempre lo mismo
 cur.execute("DROP TABLE messages")
