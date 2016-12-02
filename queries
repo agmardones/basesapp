@@ -1,21 +1,22 @@
-﻿[
+[
   {
-    "name": "Seleccionar todo",
-    "database": "mongo",
+    "name": "Conulta 1",
+    "database": "postgres",
     "description": "Una muy breve descripción",
-    "query": "Entregar todos los mensajes emitidos por un usuario de la red social."
+    "query": "SELECT * FROM mytable;"
   },
   {
-  "name": "Lorem ipsum dolor sit amet",
+  "name": "Consulta 2",
   "database": "mongo",
-  "description":"Agregar descripcion",
-  "query": "Entregar todos los mensajes intercambiados entre dos usuarios de la red social."
+  "description":
+  "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
+  "query": "myCollection.find( {\"attribute\": \"value\"} )"
   },
   {
-    "name": "Sebastián",
-    "database": "mongo",
+    "name": "Consulta 3",
+    "database": "postgres",
     "description": "Una consulta de Sebastián 🙋",
-    "query": "Busqueda por texto:"
+    "query": "SELECT * FROM mytable WHERE nombre='Sebastián';"
   },
   {
     "name": "Quiero todo de mongo 😄",
