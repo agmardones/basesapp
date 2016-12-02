@@ -77,12 +77,19 @@ def example():
 @app.route("/receptor")
 def receptor():
     name = request.args.get("fname")
-    dicto = json.load('\\var\\www\\flaskr\\db\\users.json')
-    ids = 0000
-    for grupo in dicto:
-        if grupo['name'] == name:
-            ids = grupo['id']
-    return render_template('receptor.html', name=name, lname=ids)
+    users = mongodb.users.find({'name': '{}'.format(name)})
+    a = 0000
+    try:
+        user = users.next()
+        userid = user["id"]
+        msgs = mongodb.messages.find({'sender': userid})
+        for m in msgs:
+            pass
+            print(m)
+            a = m
+    except StopIteration:
+        print("Probablemente una consulta vacía")
+    return render_template('receptor.html', name=name, lname=a)
 
 
 if __name__ == "__main__":
