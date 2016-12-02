@@ -78,18 +78,11 @@ def example():
 def receptor():
     name = request.args.get("fname")
     users = mongodb.users.find({'name': '{}'.format(name)})
-    a = 0000
-    try:
-        user = users.next()
-        userid = user["id"]
-        msgs = mongodb.messages.find({'sender': userid})
-        for m in msgs:
-            pass
-            print(m)
-            a = m
-    except StopIteration:
-        print("Probablemente una consulta vacía")
-    return render_template('receptor.html', name=name, lname=a)
+    user = users.next()
+    userid = user["id"]
+    msgs = mongodb.messages.find({'sender': userid})
+    results = json_util.dumps(msgs, sort_keys=True, indent=4)
+    return render_template('receptor.html', name=name, lname=results)
 
 
 if __name__ == "__main__":
