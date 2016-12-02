@@ -100,6 +100,27 @@ def receptor():
         results1 = json_util.dumps(msgs12, sort_keys=True, indent=4)
         results2 = json_util.dumps(msgs21, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results1=results1, results2=results2)
+    if consulta == "Consulta3":
+        texto1 = request.args.get("texto1")
+        texto2 = request.args.get("texto2")
+        texto3 = request.args.get("texto3")
+        phrase = texto1.split(',')
+        banned_words = texto3.split(',')
+        if phrase:
+            cur = mongodb.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}})
+        else:
+            cur = mongodb.messages.find()
+        will_print = True
+        to_send = []
+        for msg in cur:
+            for w in banned_words:
+                if w in msg["message"]:
+                    will_print = False
+            if will_print:
+                to_send.append(msg)
+            will_print = True
+        results = json_util.dumps(to_send, sort_keys=True, indent=4)
+        return render_template('receptor.html', con=consulta, results=results)
     if consulta == "Consulta4":
         name1 = request.args.get("name1")
         name2 = request.args.get("name2")
@@ -146,6 +167,10 @@ def receptor():
                 to_send.append(m)
         results = json_util.dumps(to_send, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results=results)
+    if consulta == "Consutla6":
+        name1 = request.args.get("name1")
+        fecha1 = request.args.get("fecha1")
+        fecha2 = request.args.get("fecha2")
 
 if __name__ == "__main__":
     app.run()
