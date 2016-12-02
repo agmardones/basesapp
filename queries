@@ -19,13 +19,13 @@
     "query": "SELECT * FROM mytable WHERE nombre='Sebastián';"
   },
   {
-    "name": "Quiero todo de mongo 😄",
+    "name": "Consulta4",
     "database": "mongo",
     "description": "...",
     "query": "messages.find()"
   },
   {
-    "name": "Insertar a mongo",
+    "name": "Consulta5",
     "database": "mongo",
     "description":
       "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
