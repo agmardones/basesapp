@@ -28,9 +28,9 @@
           </div>
           <div class="query-card-code">
             <span>{{query}}</span>
-              <form action="mongo?query=messages.find({'sender':1}, {'message':1, 'sender':1})" method="post">
-              First name: <input type="text" name="fname"><br>
-              Last name: <input type="text" name="lname"><br>
+              <form action="mongo?query=messages.find({'sender':1}, {'message':1, 'sender':1})">
+              First name: <input type="text"><br>
+              Last name: <input type="text"><br>
               <input type="submit" value="Submit">
               </form> 
           </div>
