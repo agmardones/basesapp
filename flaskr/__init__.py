@@ -120,7 +120,7 @@ def receptor():
                 will_print = True
 
             results = json_util.dumps(to_send, sort_keys=True, indent=4)
-            return render_template('receptor-{}.html'.format(texto1), con=consulta, results=results)
+            return render_template('receptor.html'.format(texto1), con=consulta, results=results)
         except StopIteration:
             print("Probablemente una consulta vacía")
             
