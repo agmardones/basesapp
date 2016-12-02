@@ -77,7 +77,7 @@ def example():
 @app.route("/receptor")
 def receptor():
     name = request.args.get("fname")
-    dicto = json.load('/var/www/flaskr/db/users.json')
+    dicto = json.load('\\var\\www\\flaskr\\db\\users.json')
     ids = 0000
     for grupo in dicto:
         if grupo['name'] == name:
