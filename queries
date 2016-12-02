@@ -1,16 +1,15 @@
 [
   {
     "name": "Consulta1",
-    "database": "postgres",
-    "description": "Una muy breve descripción",
-    "query": "SELECT * FROM mytable;"
+    "database": "Mongo",
+    "description": "Entregar todos los mensajes emitidos por un usuario de la red social.",
+    "query": "..."
   },
   {
   "name": "Consulta2",
-  "database": "mongo",
-  "description":
-  "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
-  "query": "myCollection.find( {\"attribute\": \"value\"} )"
+  "database": "Mongo",
+  "description":"Entregar todos los mensajes intercambiados entre dos usuarios de la red social.",
+  "query": "..."
   },
   {
     "name": "Consulta3",
