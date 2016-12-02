@@ -99,6 +99,13 @@ def receptor():
         results1 = json_util.dumps(msgs12, sort_keys=True, indent=4)
         results2 = json_util.dumps(msgs21, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results1=results1, results2=results2)
+    name = request.args.get("fname")
+    users = mongodb.users.find({'name': '{}'.format(name)})
+    user = users.next()
+    userid = user["id"]
+    msgs = mongodb.messages.find({'sender': userid})
+    results = json_util.dumps(msgs, sort_keys=True, indent=4)
+    return render_template('receptor.html', con=consulta, name=name, lname=results)
 
 
 if __name__ == "__main__":
