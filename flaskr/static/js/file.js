@@ -16,6 +16,6 @@ $(document).ready(function(){
       var db = $(this).prev()[0].textContent.split('-')[0].trim();
       var query = $(this).parent().parent().find(".query-card-code > span")[0].textContent;
       var name =  $(this).parent().parent().find(".query-card-code > p")[0].textContent;
-      window.location.assign(location.href+db+'?query='+query+'holi');
+      window.location.assign(location.href+db+'?query='+query);
   });
 });
