@@ -75,39 +75,6 @@ def postgres():
 def example():
     return render_template('example.html')
 
-@app.route("/")
-def mapa():
-    consulta = request.args.get("name")
-    name = request.args.get("name1")
-    fecha1 = request.args.get("fecha1")
-    fecha2 = request.args.get("fecha2")
-    inf = time.strptime(fecha1, "%Y-%m-%d") # Límite inferior
-    sup = time.strptime(fecha2, "%Y-%m-%d") # Límite superior
-    users = db.users.find({'name': '{}'.format(name)})
-
-    try: 
-        user = users.next()
-        userid = user["id"]
-        msgs = db.messages.find({'sender': userid})
-        result = []
-        for m in msgs:
-            if inf < time.strptime(m["date"], "%Y-%m-%d") < sup:
-                result.append(m)
-        coordinates = [(m["lat"], m["long"]) for m in result]
-
-    except StopIteration:
-        print("Probablemente una consulta vacía")
-
-    lat = [i[0] for i in coordinates]
-    lon = [i[1] for i in coordinates]
-    lat_avg = sum(lat)/len(lat)
-    lon_avg = sum(lon)/len(lon)
-    location = folium.Map(location=[lat_avg, lon_avg])
-    for i in range(len(coordinates)):
-        folium.Marker([coordinates[i][0], coordinates[i][1]], popup='Posicion {}'.format(i)).add_to(location)
-    location.save("../templates/mapa.html")
-    return render_template("mapa.html")
-
 @app.route("/receptor")
 def receptor():
     consulta = request.args.get("name")
@@ -205,7 +172,7 @@ def receptor():
                 to_send.append(m)
         results = json_util.dumps(to_send, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results=results)
-    """ if consulta == "Consulta6":
+    if consulta == "Consulta6":
         name = request.args.get("name1")
         fecha1 = request.args.get("fecha1")
         fecha2 = request.args.get("fecha2")
@@ -233,7 +200,7 @@ def receptor():
         location = folium.Map(location=[lat_avg, lon_avg])
         for i in range(len(coordinates)):
             folium.Marker([coordinates[i][0], coordinates[i][1]], popup='Posicion {}'.format(i)).add_to(location)
-        location.save("../templates/mapa.html") """
+        location.save("../templates/mapa.html")
 
 
 if __name__ == "__main__":
