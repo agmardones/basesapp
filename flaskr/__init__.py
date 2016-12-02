@@ -4,6 +4,7 @@ import os
 import sys
 import psycopg2
 import json
+import time
 from bson import json_util
 from pymongo import MongoClient
 from flask import Flask, request, session, g, redirect, url_for, abort, \
@@ -99,13 +100,30 @@ def receptor():
         results1 = json_util.dumps(msgs12, sort_keys=True, indent=4)
         results2 = json_util.dumps(msgs21, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results1=results1, results2=results2)
-
-
-@app.route("/filtro")
-def filtro():
-    msg12 = request.values.get("fecha1")
-    msg21 = request.values.get("fecha2")
-    return render_template('fechas.html', a=msg12, b=msg21)
+    if consulta == "Consulta4":
+        name1 = request.args.get("name1")
+        name2 = request.args.get("name2")
+        fecha1 = request.args.get("fecha1")
+        fecha2 = request.args.get("fecha2")
+        users1 = mongodb.users.find({'name': '{}'.format(name1)})
+        users2 = mongodb.users.find({'name': '{}'.format(name2)})
+        user1 = users1.next()
+        user2 = users2.next()
+        user1id = user1["id"]
+        user2id = user2["id"]
+        msgs12 = mongodb.messages.find({'sender': user1id, 'receptant': user2id})
+        msgs21 = mongodb.messages.find({'sender': user2id, 'receptant': user1id})
+        inf = time.strptime("{}".format(fecha1), "%Y-%m-%d")
+        sup = time.strptime("{}".format(fecha2), "%Y-%m-%d")
+        to_send = list()
+        for m in msgs12:
+            if inf < time.strptime(m["date"], "%Y-%m-%d") < sup:
+                to_send.append(m)
+        for m in msgs21:
+            if inf < time.strptime(m["date"], "%Y-%m-%d") < sup:
+                to_send.append(m)
+        results = json_util.dumps(to_send, sort_keys=True, indent=4)
+        return render_template('receptor.html', con=consulta, results=results)
 
 if __name__ == "__main__":
     app.run()

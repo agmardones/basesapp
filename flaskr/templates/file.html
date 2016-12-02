@@ -50,6 +50,26 @@
               <input type="submit" value="Submit">
               </form> 
               {% endif %}
+              {% if name == "Consulta4" %}
+              <form  action="/receptor">
+              Ingrese nombre del usuario 1: <input type="text", name="name1"><br>
+              Ingrese nombre del usuario 2: <input type="text", name="name2"><br>
+              Ingrese fecha 1: <input type="text", name="fecha1"><br>
+              Ingrese fecha 2: <input type="text", name="fecha2"><br>
+              <input type="hidden" name="name", value={{name}}><br>
+              <input type="submit" value="Submit">
+              </form>  
+              {% endif %}
+              {% if name == "Consulta5" %}
+              <form  action="/receptor">
+              Ingrese nombre del usuario 1: <input type="text", name="name1"><br>
+              Ingrese nombre del usuario 2: <input type="text", name="name2"><br>
+              Ingrese latitud: <input type="text", name="latitud"><br>
+              Ingrese longitud: <input type="text", name="longitud"><br>
+              <input type="hidden" name="name", value={{name}}><br>
+              <input type="submit" value="Submit">
+              </form>  
+              {% endif %}
           </div>
         </div>
       </div>
