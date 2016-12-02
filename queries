@@ -1,19 +1,19 @@
 [
   {
-    "name": "Seleccionar todo",
+    "name": "Conulta 1",
     "database": "postgres",
     "description": "Una muy breve descripción",
     "query": "SELECT * FROM mytable;"
   },
   {
-  "name": "Lorem ipsum dolor sit amet",
+  "name": "Consulta 2",
   "database": "mongo",
   "description":
   "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
   "query": "myCollection.find( {\"attribute\": \"value\"} )"
   },
   {
-    "name": "Sebastián",
+    "name": "Consulta 3",
     "database": "postgres",
     "description": "Una consulta de Sebastián 🙋",
     "query": "SELECT * FROM mytable WHERE nombre='Sebastián';"
