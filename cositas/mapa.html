@@ -1,0 +1,264 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_58216aec33294577a529a11a882c9c5a {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_58216aec33294577a529a11a882c9c5a" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_58216aec33294577a529a11a882c9c5a = L.map('map_58216aec33294577a529a11a882c9c5a', {
+                                           center:[-18.483333,-70.333333],
+                                           zoom: 10,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_28c509ffabfc4d29a3bcb816f29affd0 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_58216aec33294577a529a11a882c9c5a);
+
+        
+        
+            
+
+            var marker_8bcd1d75eb4d46cd90af14fd7935fdd3 = L.marker(
+                [-18.483333,-70.333333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_58216aec33294577a529a11a882c9c5a);
+            
+        
+            
+            var popup_2050261894f84560a47933c145bce42b = L.popup({maxWidth: '300'});
+
+            
+                var html_18341391f32d4b26abdeffb2c18579e2 = $('         <div id="html_18341391f32d4b26abdeffb2c18579e2"                 style="width: 100.0%; height: 100.0%;">                 Posicion 0</div>                 ')[0];
+                popup_2050261894f84560a47933c145bce42b.setContent(html_18341391f32d4b26abdeffb2c18579e2);
+            
+
+            marker_8bcd1d75eb4d46cd90af14fd7935fdd3.bindPopup(popup_2050261894f84560a47933c145bce42b);
+
+            
+        
+        
+            
+
+            var marker_d838af6f5a2c4eb5be180775eb75ceea = L.marker(
+                [-18.483333,-70.333333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_58216aec33294577a529a11a882c9c5a);
+            
+        
+            
+            var popup_c192f5538c224ca3a04092412f376caf = L.popup({maxWidth: '300'});
+
+            
+                var html_d2882ec5be6541a9a6e05ca35d954352 = $('         <div id="html_d2882ec5be6541a9a6e05ca35d954352"                 style="width: 100.0%; height: 100.0%;">                 Posicion 1</div>                 ')[0];
+                popup_c192f5538c224ca3a04092412f376caf.setContent(html_d2882ec5be6541a9a6e05ca35d954352);
+            
+
+            marker_d838af6f5a2c4eb5be180775eb75ceea.bindPopup(popup_c192f5538c224ca3a04092412f376caf);
+
+            
+        
+        
+            
+
+            var marker_2af058ce9da0455ea53cff324edc85f3 = L.marker(
+                [-18.483333,-70.333333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_58216aec33294577a529a11a882c9c5a);
+            
+        
+            
+            var popup_9547ddd618824124995e248fb99196c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_f42d85468c09400588763e7beaf63111 = $('         <div id="html_f42d85468c09400588763e7beaf63111"                 style="width: 100.0%; height: 100.0%;">                 Posicion 2</div>                 ')[0];
+                popup_9547ddd618824124995e248fb99196c6.setContent(html_f42d85468c09400588763e7beaf63111);
+            
+
+            marker_2af058ce9da0455ea53cff324edc85f3.bindPopup(popup_9547ddd618824124995e248fb99196c6);
+
+            
+        
+        
+            
+
+            var marker_8ab2e4abf49043e191684f6a9d79ab1b = L.marker(
+                [-18.483333,-70.333333],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_58216aec33294577a529a11a882c9c5a);
+            
+        
+            
+            var popup_365cfc73d59a421394585c36bbadd0d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_f044fac2a60a45158a84ad94ffc1cf06 = $('         <div id="html_f044fac2a60a45158a84ad94ffc1cf06"                 style="width: 100.0%; height: 100.0%;">                 Posicion 3</div>                 ')[0];
+                popup_365cfc73d59a421394585c36bbadd0d7.setContent(html_f044fac2a60a45158a84ad94ffc1cf06);
+            
+
+            marker_8ab2e4abf49043e191684f6a9d79ab1b.bindPopup(popup_365cfc73d59a421394585c36bbadd0d7);
+
+            
+        
+        
+        
+        </script>
+        
