@@ -13,21 +13,22 @@
   },
   {
     "name": "Consulta3",
-    "database": "postgres",
-    "description": "Una consulta de Sebastián 🙋",
-    "query": "SELECT * FROM mytable WHERE nombre='Sebastián';"
+    "database": "Mongo",
+    "description": "Busqueda por texto:",
+    "query": "..."
   },
   {
     "name": "Consulta4",
-    "database": "mongo",
-    "description": "...",
-    "query": "messages.find()"
+    "database": "Mongo",
+    "description": "A las consultas anteriores, agregar la posibilidad de ltrar los resultados para los
+mensajes emitidos entre dos fechas.",
+    "query": "..."
   },
   {
     "name": "Consulta5",
-    "database": "mongo",
-    "description":
-      "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
-    "query": "myCollection.insert( { \"attribute\": \"value\" } )"
+    "database": "Mongo",
+    "description": "A las consultas anteriores, agregar la posibilidad de ltrar los resultados segun
+los mensajes emitidos en una ubicacion en particular.",
+    "query": "..."
   }
 ]
