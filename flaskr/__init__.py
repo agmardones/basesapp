@@ -104,7 +104,7 @@ def receptor():
         texto1 = request.args.get("texto1")
         texto2 = request.args.get("texto2")
         texto3 = request.args.get("texto3")
-	mongodb.entidades.createIndex({"descriptions.en.value":"text"})
+        mongodb.entidades.createIndex({"descriptions.en.value":"text"})
         phrase = texto1
         banned_words = texto3.split(',')
         if phrase:
