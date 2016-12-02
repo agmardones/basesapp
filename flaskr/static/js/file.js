@@ -15,6 +15,6 @@ $(document).ready(function(){
     .click(function() {
       var db = $(this).prev()[0].textContent.split('-')[0].trim();
       var query = $(this).parent().parent().find(".query-card-code > span")[0].textContent;
-      window.location.assign(location.href+db+'?query='+query);
+      window.location.assign(location.href+db+'?query='+query+'?fname='+frame);
   });
 });
