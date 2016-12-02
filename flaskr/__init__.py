@@ -109,15 +109,20 @@ def receptor():
         cur = mongodb.messages.find()
         will_print = True
         to_send = []
-        for msg in cur:
-            for w in banned_words:
-                if w in msg["message"] or not(phrase in msg["message"]):
-                    will_print = False
-            if will_print:
-                to_send.append(msg)
-            will_print = True
-        results = json_util.dumps(to_send, sort_keys=True, indent=4)
-        return render_template('receptor-{}.html'.format(texto1), con=consulta, results=results)
+        try:
+            for msg in cur:
+                for w in banned_words:
+                    if w in msg["message"] or (phrase not in msg["message"]):
+                        will_print = False
+                if will_print:
+                    to_send.append(msg)
+                will_print = True
+
+            results = json_util.dumps(to_send, sort_keys=True, indent=4)
+            return render_template('receptor-{}.html'.format(texto1), con=consulta, results=results)
+        except StopIteration:
+            print("Probablemente una consulta vacía")
+            
     if consulta == "Consulta4":
         name1 = request.args.get("name1")
         name2 = request.args.get("name2")

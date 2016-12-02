@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+from bson import json_util
 import sys
 
 MONGODATABASE = "entrega4"
@@ -6,7 +7,7 @@ MONGOSERVER = "localhost"
 MONGOPORT = 27017
 client = MongoClient(MONGOSERVER, MONGOPORT)
 db = client[MONGODATABASE]
-phrase = "" # db.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}});
+phrase = "Te odio" # db.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}});
 banned_words = ["despido", "saludos"]
 if phrase:
 	cur = db.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}});
@@ -24,4 +25,4 @@ for msg in cur:
 	will_print = True
 
 results = json_util.dumps(to_send, sort_keys=True, indent=4)
-
+print(results)
