@@ -21,6 +21,13 @@
               {{description}
               <input type="submit" value="Submit">
             </span>
+            <form action="action_page.php">
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+            </form> 
             <button
               class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect arrow"
             >
@@ -29,16 +36,8 @@
           </div>
           <div class="query-card-code">
             <span>{{query}}</span>
-            <p>nombre : <input type="text" name="frame"></p>
           </div>
-           <form action="action_page.php">
-            First name:<br>
-            <input type="text" name="firstname" value="Mickey"><br>
-            Last name:<br>
-            <input type="text" name="lastname" value="Mouse"><br><br>
-            <input type="submit" value="Submit">
-            </form> 
-	   </div>
+	      </div>
       </div>
       {% endfor %}
     </div>
