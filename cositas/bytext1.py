@@ -14,11 +14,14 @@ else:
 	cur = db.messages.find();
 
 will_print = True
+to_send = []
 for msg in cur:
 	for w in banned_words:
 		if w in msg["message"]:
 			will_print = False
 	if will_print:
-		print(msg["message"])
+		to_send.append(msg)
 	will_print = True
+
+results = json_util.dumps(to_send, sort_keys=True, indent=4)
 
