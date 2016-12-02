@@ -103,8 +103,8 @@ def receptor():
 
 @app.route("/filtro")
 def filtro():
-    msg12 = request.args.get("fecha1")
-    msg21 = request.args.get("fecha2")
+    msg12 = request.values.get("fecha1")
+    msg21 = request.values.get("fecha2")
     return render_template('fechas.html', a=msg12, b=msg21)
 
 if __name__ == "__main__":
