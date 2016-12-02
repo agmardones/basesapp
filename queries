@@ -1,9 +1,9 @@
-﻿[
+[
   {
     "name": "Seleccionar todo",
     "database": "postgres",
     "description": "Una muy breve descripción",
-    "query": "SELECT * FROM users;"
+    "query": "SELECT * FROM mytable;"
   },
   {
   "name": "Lorem ipsum dolor sit amet",
@@ -22,7 +22,7 @@
     "name": "Quiero todo de mongo 😄",
     "database": "mongo",
     "description": "...",
-    "query": "messages.find({'sender':1}, {'message':1, 'sender':1})"
+    "query": "messages.find()"
   },
   {
     "name": "Insertar a mongo",
