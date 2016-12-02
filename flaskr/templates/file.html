@@ -3,7 +3,7 @@
 {% block content %}
   <div class="main-container">
     <div class="container">
-      {% for name, db, description, query, id in results %}
+      {% for name, db, description, query in results %}
       {% set algomuysucio = 'onClickQuery("{}","{}")'.format(db, query) %}
 
       <div class="query-card mdl-shadow--2dp">

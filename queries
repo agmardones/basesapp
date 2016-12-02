@@ -3,37 +3,32 @@
     "name": "Seleccionar todo",
     "database": "postgres",
     "description": "Una muy breve descripción",
-    "query": "SELECT * FROM users;",
-    "id": "1"
+    "query": "SELECT * FROM users;"
   },
   {
   "name": "Lorem ipsum dolor sit amet",
   "database": "mongo",
   "description":
   "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
-  "query": "myCollection.find( {\"attribute\": \"value\"} )",
-  "id": "2"
+  "query": "myCollection.find( {\"attribute\": \"value\"} )"
   },
   {
     "name": "Sebastián",
     "database": "postgres",
     "description": "Una consulta de Sebastián 🙋",
-    "query": "SELECT * FROM mytable WHERE nombre='Sebastián';",
-    "id": "3"
+    "query": "SELECT * FROM mytable WHERE nombre='Sebastián';"
   },
   {
     "name": "Quiero todo de mongo 😄",
     "database": "mongo",
     "description": "...",
-    "query": "messages.find({'sender':1}, {'message':1, 'sender':1})",
-    "id": "4"
+    "query": "messages.find({'sender':1}, {'message':1, 'sender':1})"
   },
   {
     "name": "Insertar a mongo",
     "database": "mongo",
     "description":
       "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
-    "query": "myCollection.insert( { \"attribute\": \"value\" } )",
-    "id": "5"
+    "query": "myCollection.insert( { \"attribute\": \"value\" } )"
   }
 ]
