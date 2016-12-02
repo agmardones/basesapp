@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Seleccionar todo",
     "database": "postgres",
@@ -22,7 +22,7 @@
     "name": "Quiero todo de mongo 😄",
     "database": "mongo",
     "description": "...",
-    "query": "messages.find({'sender':1},{'message':1, 'sender':1})"
+    "query": "messages.find({'sender':1}, {'message':1, 'sender':1})"
   },
   {
     "name": "Insertar a mongo",
