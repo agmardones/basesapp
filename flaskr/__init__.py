@@ -124,6 +124,28 @@ def receptor():
                 to_send.append(m)
         results = json_util.dumps(to_send, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results=results)
+    if consulta == "Consulta5":
+        name1 = request.args.get("name1")
+        name2 = request.args.get("name2")
+        lat = request.args.get("latitud")
+        lon = request.args.get("longitud")
+        users1 = mongodb.users.find({'name': '{}'.format(name1)})
+        users2 = mongodb.users.find({'name': '{}'.format(name2)})
+        user1 = users1.next()
+        user2 = users2.next()
+        user1id = user1["id"]
+        user2id = user2["id"]
+        msgs12 = mongodb.messages.find({'sender': user1id, 'receptant': user2id})
+        msgs21 = mongodb.messages.find({'sender': user2id, 'receptant': user1id})
+        to_send = list()
+        for m in msgs12:
+            if float(m["long"]) == lon and float(m["lat"]) == lat:
+                to_send.append(m)
+        for m in msgs21:
+            if float(m["long"]) == lon and float(m["lat"]) == lat:
+                to_send.append(m)
+        results = json_util.dumps(to_send, sort_keys=True, indent=4)
+        return render_template('receptor.html', con=consulta, results=results)
 
 if __name__ == "__main__":
     app.run()
