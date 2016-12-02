@@ -4,7 +4,7 @@
     "database": "postgres",
     "description": "Una muy breve descripción",
     "query": "SELECT * FROM users;",
-    "id":"1"
+    "id": "1"
   },
   {
   "name": "Lorem ipsum dolor sit amet",
@@ -12,21 +12,21 @@
   "description":
   "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
   "query": "myCollection.find( {\"attribute\": \"value\"} )",
-  "id":"2"
+  "id": "2"
   },
   {
     "name": "Sebastián",
     "database": "postgres",
     "description": "Una consulta de Sebastián 🙋",
     "query": "SELECT * FROM mytable WHERE nombre='Sebastián';",
-    "id":"3"
+    "id": "3"
   },
   {
     "name": "Quiero todo de mongo 😄",
     "database": "mongo",
     "description": "...",
     "query": "messages.find({'sender':1}, {'message':1, 'sender':1})",
-    "id":"4"
+    "id": "4"
   },
   {
     "name": "Insertar a mongo",
@@ -34,6 +34,6 @@
     "description":
       "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
     "query": "myCollection.insert( { \"attribute\": \"value\" } )",
-    "id":"5"
+    "id": "5"
   }
 ]
