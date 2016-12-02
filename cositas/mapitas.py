@@ -37,4 +37,4 @@ print(lat_avg, lon_avg)
 location = folium.Map(location=[lat_avg, lon_avg])
 for i in range(len(coordinates)):
 	folium.Marker([coordinates[i][0], coordinates[i][1]], popup='Posicion {}'.format(i)).add_to(location)
-location.save("mapa.html")
+location.save("../mapa.html")
