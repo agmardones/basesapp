@@ -7,6 +7,10 @@
       {% set algomuysucio = 'onClickQuery("{}","{}")'.format(db, query) %}
 
       <div class="query-card mdl-shadow--2dp">
+        <form name="search" action="../__init__.py" method="get">
+         <input type="text" name="searchbox">
+         <input type="submit" name="submit">
+         </form>
         <div class="mdl-card__title">
           <h6>{{db}} - {{name}}</h6>
           <button
@@ -28,7 +32,7 @@
           </div>
           <div class="query-card-code">
             <span>{{query}}</span>
-              <form action="mongo?query=messages.find({'sender':1}, {'message':1, 'sender':1})" method="post">
+              <form action="mongo?query=messages.find({'sender':1}, {'message':1, 'sender':1})" method="">
               First name: <input type="text"><br>
               Last name: <input type="text"><br>
               <input type="submit" value="Submit">
