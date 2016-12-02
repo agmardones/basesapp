@@ -139,10 +139,10 @@ def receptor():
         msgs21 = mongodb.messages.find({'sender': user2id, 'receptant': user1id})
         to_send = list()
         for m in msgs12:
-            if float(m["long"]) == lon and float(m["lat"]) == lat:
+            if m["long"] == lon and m["lat"] == lat:
                 to_send.append(m)
         for m in msgs21:
-            if float(m["long"]) == lon and float(m["lat"]) == lat:
+            if m["long"] == lon and m["lat"] == lat:
                 to_send.append(m)
         results = json_util.dumps(to_send, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results=results)
