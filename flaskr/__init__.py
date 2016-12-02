@@ -73,6 +73,12 @@ def postgres():
 def example():
     return render_template('example.html')
 
+@app.route("/receptor")
+def receptor():
+    name = request.args.get("fname")
+    lname = request.args.get("lname")
+    return render_template('receptor.html', name=name, lname=lname)
+
 
 if __name__ == "__main__":
     app.run()
