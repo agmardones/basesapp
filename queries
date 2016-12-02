@@ -20,15 +20,13 @@
   {
     "name": "Consulta4",
     "database": "Mongo",
-    "description": "A las consultas anteriores, agregar la posibilidad de ltrar los resultados para los
-mensajes emitidos entre dos fechas.",
+    "description": "A las consultas anteriores, agregar la posibilidad deltrar los result",
     "query": "..."
   },
   {
     "name": "Consulta5",
     "database": "Mongo",
-    "description": "A las consultas anteriores, agregar la posibilidad de ltrar los resultados segun
-los mensajes emitidos en una ubicacion en particular.",
+    "description": "A las consultas anteriores, agregar la posibilidad de ltrar los resultados",
     "query": "..."
   }
 ]
