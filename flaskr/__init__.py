@@ -108,9 +108,9 @@ def receptor():
         phrase = texto1
         banned_words = texto3.split(',')
         if phrase:
-            cur = db.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}});
+            cur = mongodb.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}});
         else:
-            cur = db.messages.find();
+            cur = mongodb.messages.find();
         will_print = True
         to_send = []
         try:
