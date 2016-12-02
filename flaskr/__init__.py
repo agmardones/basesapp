@@ -105,7 +105,7 @@ def receptor():
 def filtro():
     msg12 = request.args.get("fecha1")
     msg21 = request.args.get("fecha2")
-    return render_template('filtro.html', a=msg12, b=msg21)
+    return render_template('fechas.html', a=msg12, b=msg21)
 
 if __name__ == "__main__":
     app.run()
