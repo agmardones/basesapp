@@ -104,7 +104,7 @@ def receptor():
         texto1 = request.args.get("texto1")
         texto2 = request.args.get("texto2")
         texto3 = request.args.get("texto3")
-        phrase = texto1.split(',')
+        phrase = texto1
         banned_words = texto3.split(',')
         if phrase:
             cur = mongodb.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}})
@@ -171,6 +171,7 @@ def receptor():
         name1 = request.args.get("name1")
         fecha1 = request.args.get("fecha1")
         fecha2 = request.args.get("fecha2")
+
 
 if __name__ == "__main__":
     app.run()
