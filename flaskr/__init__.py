@@ -23,10 +23,11 @@ MONGOPORT = 27017
 client = MongoClient(MONGOSERVER, MONGOPORT)
 mongodb = client[MONGODATABASE]
 
-
+"""
 POSTGRESDATABASE = "entrega4"
 POSTGRESUSER = "administrator"
 postgresdb = psycopg2.connect("dbname = {} user = {}".format(POSTGRESDATABASE, POSTGRESUSER))
+"""
 
 #Cambiar por Path Absoluto en el servidor
 QUERIES_FILENAME = '/var/www/flaskr/queries'
