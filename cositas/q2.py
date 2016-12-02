@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+from bson import json_util
 import time
 import sys
 
@@ -10,9 +11,6 @@ db = client[MONGODATABASE]
 
 args1 = sys.argv[1:3] # Nombre del primero
 args2 = sys.argv[3:] # Nombre del segundo
-
-print(args1)
-print(args2)
 users1 = db.users.find({'name': '{} {}'.format(*args1)})
 users2 = db.users.find({'name': '{} {}'.format(*args2)})
 try:
@@ -36,17 +34,17 @@ try:
 	"""
 	lat = -18.483333 
 	lon = -70.333333
-
+	to_send = []
 	for m in msgs12:
-		if inf < time.strptime(m["date"], "%Y-%m-%d") < sup: pass
-			# print(m)
-		if float(m["long"]) == lon and float(m["lat"]) == lat:
-			print(m)
+		if inf < time.strptime(m["date"], "%Y-%m-%d") < sup:
+			to_send.append(m)
+		if float(m["long"]) == lon and float(m["lat"]) == lat: pass
 	for m in msgs21:
-		if inf < time.strptime(m["date"], "%Y-%m-%d") < sup: pass
-			# print(m)
-		if float(m["long"]) == lon and float(m["lat"]) == lat:
-			print(m)
+		if inf < time.strptime(m["date"], "%Y-%m-%d") < sup: 
+			to_send.append(m)
+		if float(m["long"]) == lon and float(m["lat"]) == lat: pass
 
+	results = json_util.dumps(to_send, sort_keys=True, indent=4)
+	print(results)
 except StopIteration:
 	print("Probablemente una consulta vacía")
