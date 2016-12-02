@@ -48,8 +48,10 @@ def mongo():
     query = request.args.get("query")
     results = eval('mongodb.'+query)
     results = json_util.dumps(results, sort_keys=True, indent=4)
+    name = 'Matias'
+    verdad = request.args.get("fname")
     if "find" in query:
-        return render_template('mongo.html', results=results)
+        return render_template('mongo.html', results=results, name=name, name2=verdad)
     else:
         return "ok"
 
