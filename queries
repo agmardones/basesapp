@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Seleccionar todo",
     "database": "postgres",
@@ -22,7 +22,7 @@
     "name": "Quiero todo de mongo 😄",
     "database": "mongo",
     "description": "...",
-    "query": "messages.find({'sender': 1}, {'message':1, 'sender':1})"
+    "query": "messages.find()"
   },
   {
     "name": "Insertar a mongo",
@@ -30,11 +30,5 @@
     "description":
       "Vestibulum vulputate metus at nisl lacinia blandit. Quisque fermentum sagittis mi",
     "query": "myCollection.insert( { \"attribute\": \"value\" } )"
-  },
-  {
-    "name": "otra consulta",
-    "database": "mongo",
-    "description": "Esta es otra consulta m3n",
-    "query": "messages.find()"
   }
 ]
