@@ -73,11 +73,16 @@ def postgres():
 def example():
     return render_template('example.html')
 
+
 @app.route("/receptor")
 def receptor():
     name = request.args.get("fname")
-    lname = request.args.get("lname")
-    return render_template('receptor.html', name=name, lname=lname)
+    dicto = json.load('/var/www/flaskr/db/users.json')
+    ids = 0000
+    for grupo in dicto:
+        if grupo['name'] == name:
+            ids = grupo['id']
+    return render_template('receptor.html', name=name, lname=ids)
 
 
 if __name__ == "__main__":
