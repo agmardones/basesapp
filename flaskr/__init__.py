@@ -107,13 +107,16 @@ def receptor():
         texto3 = request.args.get("texto3")
         phrase = texto1
         banned_words = texto3.split(',')
-        cur = mongodb.messages.find()
+        if phrase:
+            cur = db.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}});
+        else:
+            cur = db.messages.find();
         will_print = True
         to_send = []
         try:
             for msg in cur:
                 for w in banned_words:
-                    if w in msg["message"] or (phrase not in msg["message"]):
+                    if w in msg["message"]: # or (phrase not in msg["message"]):
                         will_print = False
                 if will_print:
                     to_send.append(msg)
