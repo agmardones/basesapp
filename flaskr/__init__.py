@@ -77,7 +77,7 @@ def example():
 @app.route("/receptor")
 def receptor():
     consulta = request.args.get("name")
-    if consulta == "Consulta 1":
+    if consulta == "Consulta1":
         name = request.args.get("fname")
         users = mongodb.users.find({'name': '{}'.format(name)})
         user = users.next()
@@ -85,7 +85,7 @@ def receptor():
         msgs = mongodb.messages.find({'sender': userid})
         results = json_util.dumps(msgs, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, name=name, lname=results)
-    if consulta == "Consulta 2":
+    if consulta == "Consulta2":
         name1 = request.args.get("name1")
         name2 = request.args.get("name2")
         users1 = mongodb.users.find({'name': '{}'.format(name1)})
