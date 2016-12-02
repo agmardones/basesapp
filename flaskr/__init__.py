@@ -205,7 +205,7 @@ def receptor():
                 to_send.append(m)
         results = json_util.dumps(to_send, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results=results)
-    if consulta == "Consulta6":
+    """ if consulta == "Consulta6":
         name = request.args.get("name1")
         fecha1 = request.args.get("fecha1")
         fecha2 = request.args.get("fecha2")
@@ -233,7 +233,7 @@ def receptor():
         location = folium.Map(location=[lat_avg, lon_avg])
         for i in range(len(coordinates)):
             folium.Marker([coordinates[i][0], coordinates[i][1]], popup='Posicion {}'.format(i)).add_to(location)
-        location.save("../templates/mapa.html")
+        location.save("../templates/mapa.html") """
 
 
 if __name__ == "__main__":
