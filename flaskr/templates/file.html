@@ -28,11 +28,25 @@
           </div>
           <div class="query-card-code">
             <span>{{query}}</span>
-              {% if db == "mongo" %}
+              {% if name == "consula1" %}
               <form  action="/receptor">
-              First name: <input type="text", name="fname"><br>
-              Last name: <input type="text", name="lname"><br>
-              <input type="hidden" name="db", value={{db}}><br>
+              Ingrese nombre del usuario: <input type="text", name="fname"><br>
+              <input type="hidden" name="name", value={{name}}><br>
+              <input type="submit" value="Submit">
+              </form> 
+              {% endif %}
+              {% if name == "consula2" %}
+              <form  action="/receptor">
+              Ingrese nombre del usuario 1: <input type="text", name="name1"><br>
+              Ingrese nombre del usuario 1: <input type="text", name="name2"><br>
+              <input type="hidden" name="name", value={{name}}><br>
+              <input type="submit" value="Submit">
+              </form> 
+              {% endif %}
+              {% if name == "consula3" %}
+              <form  action="/receptor">
+              Ingrese texto que si o si debería estar.: <input type="text", name="texto"><br>
+              <input type="hidden" name="name", value={{name}}><br>
               <input type="submit" value="Submit">
               </form> 
               {% endif %}
