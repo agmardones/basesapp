@@ -104,18 +104,14 @@ def receptor():
         texto1 = request.args.get("texto1")
         texto2 = request.args.get("texto2")
         texto3 = request.args.get("texto3")
-        mongodb.entidades.createIndex({"descriptions.en.value":"text"})
         phrase = texto1
         banned_words = texto3.split(',')
-        if phrase:
-            cur = mongodb.messages.find({"$text": {"$search": "\"{}\"".format(phrase)}})
-        else:
-            cur = mongodb.messages.find()
+        cur = mongodb.messages.find()
         will_print = True
         to_send = []
         for msg in cur:
             for w in banned_words:
-                if w in msg["message"]:
+                if w in msg["message"] or not(phrase in msg["message"]):
                     will_print = False
             if will_print:
                 to_send.append(msg)
