@@ -2,7 +2,7 @@
 # -*- coding: latin-1 -*-
 import os
 import sys
-# import psycopg2
+import psycopg2
 import json
 from bson import json_util
 from pymongo import MongoClient
