@@ -18,7 +18,7 @@
     "name": "Sebastián",
     "database": "postgres",
     "description": "Una consulta de Sebastián 🙋",
-    "query": "SELECT * FROM mytable WHERE nombre='Sebastián';"
+    "query": "SELECT * FROM mytable WHERE nombre='Sebastián';",
     "id":"3"
   },
   {
