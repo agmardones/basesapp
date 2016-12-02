@@ -120,7 +120,7 @@ def receptor():
                 to_send.append(msg)
             will_print = True
         results = json_util.dumps(to_send, sort_keys=True, indent=4)
-        return render_template('receptor.html', con=consulta, results=results)
+        return render_template('receptor.html', con=texto1, results=results)
     if consulta == "Consulta4":
         name1 = request.args.get("name1")
         name2 = request.args.get("name2")
