@@ -76,13 +76,29 @@ def example():
 
 @app.route("/receptor")
 def receptor():
-    name = request.args.get("fname")
-    users = mongodb.users.find({'name': '{}'.format(name)})
-    user = users.next()
-    userid = user["id"]
-    msgs = mongodb.messages.find({'sender': userid})
-    results = json_util.dumps(msgs, sort_keys=True, indent=4)
-    return render_template('receptor.html', name=name, lname=results)
+    consulta = request.args.get("name")
+    if consulta == "Consulta 1":
+        name = request.args.get("fname")
+        users = mongodb.users.find({'name': '{}'.format(name)})
+        user = users.next()
+        userid = user["id"]
+        msgs = mongodb.messages.find({'sender': userid})
+        results = json_util.dumps(msgs, sort_keys=True, indent=4)
+        return render_template('receptor.html', con=consulta, name=name, lname=results)
+    if consulta == "Consulta 2":
+        name1 = request.args.get("name1")
+        name2 = request.args.get("name2")
+        users1 = mongodb.users.find({'name': '{}'.format(name1)})
+        users2 = mongodb.users.find({'name': '{}'.format(name2)})
+        user1 = users1.next()
+        user2 = users2.next()
+        user1id = user1["id"]
+        user2id = user2["id"]
+        msgs12 = mongodb.messages.find({'sender': user1id, 'receptant': user2id})
+        msgs21 = mongodb.messages.find({'sender': user2id, 'receptant': user1id})
+        results1 = json_util.dumps(msgs12, sort_keys=True, indent=4)
+        results2 = json_util.dumps(msgs21, sort_keys=True, indent=4)
+        return render_template('receptor.html', con=consulta, results1=results1, results2=results2)
 
 
 if __name__ == "__main__":
