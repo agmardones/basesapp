@@ -101,5 +101,9 @@ def receptor():
         return render_template('receptor.html', con=consulta, results1=results1, results2=results2)
 
 
+@app.route("/filtro")
+def filtro():
+    msg12 = request.args.get("results1")
+
 if __name__ == "__main__":
     app.run()
