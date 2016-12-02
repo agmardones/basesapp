@@ -169,7 +169,7 @@ def receptor():
                 to_send.append(m)
         results = json_util.dumps(to_send, sort_keys=True, indent=4)
         return render_template('receptor.html', con=consulta, results=results)
-    if consulta == "Consutla6":
+    if consulta == "Consulta6":
         name1 = request.args.get("name1")
         fecha1 = request.args.get("fecha1")
         fecha2 = request.args.get("fecha2")
