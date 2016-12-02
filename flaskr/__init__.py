@@ -23,11 +23,11 @@ MONGOPORT = 27017
 client = MongoClient(MONGOSERVER, MONGOPORT)
 mongodb = client[MONGODATABASE]
 
-"""
+
 POSTGRESDATABASE = "entrega4"
 POSTGRESUSER = "administrator"
 postgresdb = psycopg2.connect("dbname = {} user = {}".format(POSTGRESDATABASE, POSTGRESUSER))
-"""
+
 
 #Cambiar por Path Absoluto en el servidor
 QUERIES_FILENAME = '/var/www/flaskr/queries'
@@ -61,7 +61,8 @@ def postgres():
     query = request.args.get("query")
     cursor = postgresdb.cursor()
     cursor.execute(query)
-    results = [[a for a in result] for result in cursor]
+    r = cursor.fetchall()
+    results = [[a for a in result] for result in r]
     print(results)
     return render_template('postgres.html', results=results)
 

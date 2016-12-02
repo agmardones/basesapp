@@ -3,7 +3,7 @@
     "name": "Seleccionar todo",
     "database": "postgres",
     "description": "Una muy breve descripción",
-    "query": "SELECT * FROM mytable;"
+    "query": "SELECT * FROM users;"
   },
   {
   "name": "Lorem ipsum dolor sit amet",
